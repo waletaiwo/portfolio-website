@@ -1546,7 +1546,12 @@ select.mobile-device {
   height: 100% !important;
   opacity: 0;
 }
-
+/* social media contact*/
+.social-icons {
+  font-size: 20px;
+  text-align: center;
+  margin: auto 5px;
+}
 /*# sourceMappingURL=bootstrap-select.css.map */
 
 .bootstrap-select > .btn {
