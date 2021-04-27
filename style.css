@@ -1551,6 +1551,30 @@ select.mobile-device {
   font-size: 20px;
   text-align: center;
   margin: auto 5px;
+  transition: width 1s;
+}
+.social-icons a {
+  margin: 20px;
+}
+.social-icons .fa-twitter:hover {
+  color: rgb(60, 171, 245);
+  font-size: 22px;
+}
+.social-icons .fa-linkedin:hover {
+  color: rgb(7, 68, 160);
+  font-size: 22px;
+}
+.social-icons .fa-envelope:hover {
+  color: rgb(223, 214, 209);
+  font-size: 22px;
+}
+.social-icons .fa-github:hover {
+  color: rgb(31, 28, 26);
+  font-size: 22px;
+}
+.social-icons .fa-pinterest:hover {
+  color: rgb(143, 27, 27);
+  font-size: 22px;
 }
 /*# sourceMappingURL=bootstrap-select.css.map */
 
@@ -1696,7 +1720,7 @@ select.mobile-device {
   color: #999;
 }
 
-.footer-links a:hover,
+.footer-links,
 .footer a:hover {
   color: #333333 !important;
 }
